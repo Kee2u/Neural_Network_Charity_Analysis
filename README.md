@@ -1,4 +1,4 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
 
 ## Overview
 The goal of this analysis is to determine if organizations that were funded by the company Alphabet Soup, used their money effectively. My dataset was a csv file with 34,000 organizations that had received funding from Alphabet soup. The columns in the dataset included their application type, industry sector, government classification, use case for funding, organization type etc. I created neural network models using Scikit-Learn, Tensorflow and Keras to complete this analysis.
