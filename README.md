@@ -8,7 +8,7 @@ The goal of this analysis is to determine if organizations that were funded by t
  - The column "Is Successful" had a value of 1 if the funding was used effectively and a value of 0 if it wasn't. I used this as my target variables.
  - The columns 'Application Type", "Affiliation", "Classification", "Use case", "Organization", "Income Amount", "Special Considerations" and "Ask Amount" were used as feature variables.
  - The columns EIN or application id and application name were dropped from the feature variables since they do not influence the outcome.
-<img src ="https://github.com/Kee2u/Neural_Network_Charity_Analysis/blob/main/Pictures/DF.PNG?raw=true">
+<img src ="https://github.com/Kee2u/Neural_Network_Charity_Analysis/blob/main/Pictures/DF.PNG?raw=true" width = 1000>
 
 ### Compiling, Training and Evaluating the Model
  - I used 3 layers (excluding the output layer) with 10 neurons each. I increased the number of neurons and hidden layers from my initial attempts since it gave better results. I used a combination of tanh and relu activation functions as it gave slightly better results than using a relu activation function alone.
